@@ -1,0 +1,27 @@
+{
+  "name": "kakao-map-csv",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.4.2",
+    "papaparse": "^5.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-kakao-maps-sdk": "1.1.27"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.1",
+    "@types/papaparse": "^5.3.16",
+    "@types/react": "19.1.8",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "15.4.2",
+    "kakao.maps.d.ts": "^0.1.40",
+    "tailwindcss": "^4.0.2",
+    "typescript": "^5.4.5"
+  }
+}
